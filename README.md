@@ -1,5 +1,12 @@
 
 
+## Getting Started
+
+```
+npm install
+./bin/app
+```
+
 ## HTML Test pages
 
 *   [nodes_disks](http://localhost:3000/test/nodes_disks.html)   
