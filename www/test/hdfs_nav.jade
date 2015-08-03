@@ -1,0 +1,17 @@
+
+extends ../layout.jade
+
+block head
+  script
+    :coffee-script
+      hdfs_nav()
+
+block content
+  h1.no_toc HDFS Directory Browser
+  .chart
+    center
+      canvas#demo(width='400', height='400')
+      span#counter
+  
+
+
